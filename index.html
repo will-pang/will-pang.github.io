@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>William Pang</title>
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="image/logo.png">
     <!-- Fonts -->
@@ -20,19 +22,108 @@
             <img src="image/logo.png" alt="Logo">
         </div>
         <ul>
-<!--            <div class="nav-links">-->
-                <li><a href="#">Writing</a></li>
-                <li><a href="#">Visualizations</a></li>
-                <li><button><a href="#">Blog</a></button></li>
-<!--            </div>-->
+                <li><a href="#writing">Writing</a></li>
+                <li><a href="#visualization">Visualizations</a></li>
+                <li><button><a href="#">Fun</a></button></li>
         </ul>
     </nav>
 
-    <!-- Center Textbook -->
-    <div class="centered-container">
-        <h3 class = "raleway-400">Hej! My name is <span style="background-color: #FFFF00">Will</span>, and I'm a data scientist in healthcare who's passionate about
-        learning + building things from scratch. </h3>
+    <!-- Landing Site About Me -->
+    <div class="landing-centered-container">
+        <h3 class = "raleway-400"><a href="https://www.cantonese.sheik.co.uk/dictionary/words/2949/">nei<sup>5</sup> hou<sup>2</sup></a>!
+            My name is <span style="background-color: #FFFF00">Will</span>, and I'm a data scientist in healthcare who's passionate about
+        statistics + building things from scratch.
+            <p>
+                <a href="https://github.com/will-pang" target="_blank"><i class="bi bi-github" style="font-size: 2rem"></i></a>
+                <a href="https://www.linkedin.com/in/william-pang-lh/" target="_blank"><i class="bi bi-linkedin" style="font-size: 2rem"></i></a>
+                <a href="https://www.overleaf.com/read/mhnhqrkftcqs#db350b" target="_blank"><i class="bi bi-file-earmark-person-fill" style="font-size: 2rem"></i></a>
+            </p>
+            <p>
+                <a href="#visualization"><i class="bi bi-caret-down"  style="font-size: 2rem;"></i></a>
+            </p>
+        </h3>
     </div>
+
+    <!-- Landing Site Visualization Highlights -->
+  <div class="cards-container" id = "visualization">
+
+    <div class="custom-card">
+      <div class="img-box"><a href="https://observablehq.com/@williampangbest1/k-means-clustering"><img src="image/kmeans.png"></a></div>
+      <div class="custom-content">
+        <h2>K-Means</h2>
+        <p>Dynamic visualization of an unsupervised machine learning algorithm to partition data into K number of clusters</p>
+      </div>
+    </div>
+
+    <div class="custom-card">
+      <div class="img-box"><a href = "https://observablehq.com/@williampangbest1/colliders-and-confounders"><img src="image/confounders.png"></a></div>
+      <div class="custom-content">
+        <h2>Causal Inference</h2>
+        <p>Interactive notebook illustrating the basic concepts of colliders and confounders, two core concepts in Causal Inference</p>
+      </div>
+    </div>
+
+    <div class="custom-card">
+      <div class="img-box"><a href = "https://observablehq.com/@williampangbest1/hypothesis-testing"><img src="image/normal.png"></a></div>
+      <div class="custom-content">
+        <h2>Hypothesis Testing</h2>
+        <p>Interactive Visualization illustrating the basics of hypothesis testing for sample means (normal distribution)</p>
+      </div>
+    </div>
+  </div>
+
+    <div class="generic-centered-container">
+        <a href = "https://observablehq.com/@williampangbest1"><button class="pill-btn">Show me more cool viz!</button></a>
+    </div>
+
+    <!-- Landing Site Writing Highlights -->
+    <div class = "single-image-single-text-container" id = "writing">
+
+        <div class = "image">
+            <a href = "https://thewalrus.ca/my-other-mother/"><img src="image/My-Other-Mother.jpg" alt="Your Image"></a>
+        </div>
+
+        <div class = "text">
+            <p>While I do not actively write anymore, below are a collection of essays that I'm particularly proud of:</p>
+            <ul>
+                <li>
+                    <a href = "https://thewalrus.ca/my-other-mother/"><em>"My Other Mother"</em> (The Walrus Magazine):</a>
+                A personal essay reflecting being raised by my nanny in Hong Kong, and the sacrifices she made
+                </li>
+
+                <li>
+                    <a href = "https://www.theatlantic.com/education/archive/2016/12/the-conundrum-of-calculators-in-the-classroom/493961/#">
+                        <em>"The Common High-School Tool That is Banned in College"</em> (The Atlantic):</a>
+                    An essay exploring why calculators are heavily encouraged in high schools, but generally banned in colleges
+                </li>
+
+                <li>
+                    <a href = "https://www.nytimes.com/2016/12/19/opinion/the-season-to-be-stressful.html">
+                        <em>"The Season to be Stressful"</em> (The New York Times):</a>
+                    An essay exploring mental health in college
+                </li>
+
+                <li>
+                    <a href = "https://www.nytimes.com/2016/12/19/opinion/the-season-to-be-stressful.html">
+                        <em>"Hasty science in the battle against COVID-19 runs the risk of eroding public trust"</em> (The Toronto Star):</a>
+                    An essay breaking down the pitfalls of communicating science too quickly
+                </li>
+
+                    <a style = "text-decoration: none" href = "https://muckrack.com/william-pang">
+                        <em>and more...</em>
+                    </a>
+            </ul>
+        </div>
+    </div>
+
+<footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2024 William Pang <em>Built From Scratch</em></p>
+        </div>
+</footer>
+
+
+
 
 </body>
 </html>
