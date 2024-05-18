@@ -6,5 +6,5 @@ My name is Will, and I graduated with a degree in bioengineering from McGill Uni
 ### Why "Build From Scratch"?
 In my day job, I'm often asked to produce analysis or build tools/models on a tight deadline -- often deploying packages and tools that I have a broad understanding of, but with the nitty gritty details abstracted away. The goal of "building from scratch" is really a personal learning project, where I want to get to solidiy my understanding behind an algorithm, different optimization decisions that are implictly made when using an off-the-shelf package, with the goal of becoming a better programmer + better statistician.
 
-## So, kind of like Stardew Valley of Data Science.
+### So, kind of like Stardew Valley of Data Science.
 
