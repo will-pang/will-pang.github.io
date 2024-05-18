@@ -1,2 +1,2 @@
-# will_pang.github.io
+# will-pang.github.io
  Personal Website
