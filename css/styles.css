@@ -53,8 +53,8 @@ h3 a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px 50px; /* Adjust x if you want to add content below the cards*/
-    padding: 40px 50px;
+    gap: 30px 50px;
+    padding: 50px 50px;
 }
 .cards-container .custom-card {
     position: relative;
@@ -189,12 +189,10 @@ nav ul li button a{
 
 /* Buttons */
 .pill-btn {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   padding: 10px 20px;
-  border: true;
   border-radius: 20px;
-  cursor: pointer;
   font-size: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
