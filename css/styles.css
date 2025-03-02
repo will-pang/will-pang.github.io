@@ -96,6 +96,11 @@ h3 a {
     text-align: center;
 }
 
+.cards-container a {
+    color: inherit;
+    text-decoration: none; 
+}
+
 /* Generic Center Box */
 .generic-centered-container{
     display: flex;
