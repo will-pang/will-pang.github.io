@@ -38,7 +38,7 @@
         <!-- Blog Post -->
         <div class="card">
             <h2><a href = "https://www.linkedin.com/feed/update/urn:li:activity:7301053326995918850/">Thoughts on Bi-directional generation of synthetic data</a></h2>
-            <h5>Feb 28, 2025</h5>
+            <h5>Linkedin: Feb 28, 2025</h5>
             <img src="image/blog/synthetic_data.png" alt="Logo" href = "index.html" style="height:200px;">
             <p>
             A few weeks ago, I read a paper by Huan He and team on creating synthetic EHR data, which made me think deeper about the potential impact of generating good synthetic data, especially in the generative AI healthcare space where obtaining any type of data is hard yet necessary to train/fine-tune powerful foundation models.
@@ -55,8 +55,10 @@
         <!-- Blog Post -->
           <div class="card">
             <h2><a href = "https://www.linkedin.com/feed/update/urn:li:activity:7297339889962889216/">Dataset Distillation</a></h2>
-            <h5>Feb 21, 2025</h5>
+            <h5>Linkedin: Feb 21, 2025</h5>
             <img src="image/blog/dataset_distillation.png" alt="Logo" href = "index.html" style="height:200px;">
+            
+            <!-- Content -->
             <p>
             Lately, I’ve been reading a bit about dataset distillation, which is the idea of creating a small synthetic dataset from a large real dataset (e.g., chest X-rays) and using the smaller synthetic dataset to train machine learning models (e.g., binary classification of lung cancer using chest X-rays). The premise is quite fascinating: basically, you could chop and dice a large dataset, extract all its important components (cough  *gradients*), train a ML model on just the important components, and then get a light-weight model that gets you most of the way.
             </p>
@@ -66,6 +68,19 @@
             <p>
             That being said, I think there’s still much we don’t understand about data distillation. How can — in distillation lingo — the student (smaller synthetic model) learn so well from the teacher (larger model), especially with a much smaller set of training data? I think the same question on "learning efficacy" can be asked for prompting techniques, such as Chain-Of-Thoughts and Few-Short Learning. More to ponder…
             </p>
+        </div>
+
+        <!-- Blog Post -->
+        <div class="card">
+            <h2><a href = "https://www.linkedin.com/feed/update/urn:li:activity:7294023423733768192/">To RAG or not to RAG</a></h2>
+            <h5>Linkedin: Feb 14, 2025</h5>
+            <img src="image/blog/rag-library.png" alt="Logo" href = "index.html" style="height:200px;">
+            
+            <!-- Content -->
+             <p>
+            Some random thoughts on RAG and healthcare: Lately I’ve been reading a bit of Chip Huyen’s blog, and she gave the analogy that RAG can be thought of as “feature engineering in classical models”. This was a helpful analogy, and reminded me of how even with classical ML models in the healthcare space, we struggle with whether to deploy an algorithmic approach to cull features (think Lasso), or rely on medical expertise to tell us which features they’ve seen clinically to be important. From experience, it’s often a mixture of both. 
+            </p>
+            Admittedly not a 1:1 analogy, but I wonder if the same holds true in GenAI applications in healthcare, where source attribution is a must (if you’re trying to approve or deny a prior authorization, you have to point to the PDF that contains the rules and regulations). Indeed, there are lot of out-of-the-box tools to play around with (Amazon Bedrock, Azure AI Search) or you could do chunking + embedding and store it into a vector database yourself, but perhaps some heuristic indexing strategy (with domain knowledge) might outperform RAG. Or is it a mix of both strategies?
         </div>
 
     <footer class="site-footer">
